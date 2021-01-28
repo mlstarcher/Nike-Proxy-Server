@@ -1,0 +1,27 @@
+{
+  "name": "ms-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Repo for Nike FEC",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-Do-It-41/MS-Proxy.git"
+  },
+  "author": "Matthew Starcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Just-Do-It-41/MS-Proxy/issues"
+  },
+  "homepage": "https://github.com/Just-Do-It-41/MS-Proxy#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "morgan": "^1.10.0",
+    "webpack": "^5.17.0"
+  }
+}
